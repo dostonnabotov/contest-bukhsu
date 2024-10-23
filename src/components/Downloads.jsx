@@ -10,7 +10,7 @@ const Downloads = ({ language }) => {
 
   return (
     <div>
-      <h2>Chosen literature paper</h2>
+      <h2>Chosen Literature Paper</h2>
       <Button
         as="link"
         href={downloadLinks[language]}
