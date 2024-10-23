@@ -10,7 +10,7 @@ const Downloads = ({ language }) => {
 
   return (
     <div>
-      <h2>Download Guidelines</h2>
+      <h2>Chosen literature paper</h2>
       <Button
         as="link"
         href={downloadLinks[language]}
@@ -18,7 +18,7 @@ const Downloads = ({ language }) => {
         rel="noopener noreferrer"
       >
         <DownloadIcon />
-        <span>Download Guidelines ({language.toUpperCase()})</span>
+        <span>Download PDF ({language.toUpperCase()})</span>
       </Button>
     </div>
   );
